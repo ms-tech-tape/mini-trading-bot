@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "ms-cmake-tools.cmake-tools",
+        "twxs.cmake",
+        "ms-vscode.makefile-tools",
+        "eamodio.gitlens",
+        "ms-vscode.hexdump",
+        "formulahendry.code-runner",
+        "charliermarsh.ruff",
+        "GitHub.copilot",
+        "ms-vscode.live-server",
+        "streetsidesoftware.code-spell-checker",
+        "Gruntfuggly.todo-tree",
+        "ms-vscode.remote-explorer"
+    ]
+}

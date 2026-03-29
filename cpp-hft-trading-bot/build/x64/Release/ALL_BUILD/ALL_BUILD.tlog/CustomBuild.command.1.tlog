@@ -1,0 +1,10 @@
+^D:\C++\MINI-TRADING-BOT\CPP-HFT-TRADING-BOT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++/mini-trading-bot/cpp-hft-trading-bot -BD:/C++/mini-trading-bot/cpp-hft-trading-bot/build --check-stamp-file D:/C++/mini-trading-bot/cpp-hft-trading-bot/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

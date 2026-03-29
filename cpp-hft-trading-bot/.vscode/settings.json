@@ -1,0 +1,62 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/src"
+    ],
+    "C_Cpp.default.compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.formatting": "Default",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.h": "cpp",
+        "*.hpp": "cpp",
+        "chrono": "cpp",
+        "atomic": "cpp",
+        "thread": "cpp",
+        "mutex": "cpp",
+        "memory": "cpp",
+        "vector": "cpp",
+        "map": "cpp",
+        "deque": "cpp",
+        "functional": "cpp",
+        "condition_variable": "cpp",
+        "queue": "cpp",
+        "cmath": "cpp",
+        "algorithm": "cpp",
+        "numeric": "cpp",
+        "iostream": "cpp",
+        "iomanip": "cpp",
+        "random": "cpp",
+        "ctime": "cpp",
+        "cstdint": "cpp",
+        "string": "cpp",
+        "limits": "cpp"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": true,
+        "editor.wordBasedSuggestions": false,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "cmake.configureOnOpen": true,
+    "cmake.autoSelectActiveFolder": true,
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "off",
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/.vscode": true
+    }
+}

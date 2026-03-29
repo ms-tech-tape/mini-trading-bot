@@ -1,0 +1,114 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C++: build debug",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                "--config",
+                "Debug"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "label": "C++: build release",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                "--config",
+                "Release"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "label": "CMake: configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-B",
+                "${workspaceFolder}/build",
+                "-S",
+                "${workspaceFolder}"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "label": "C++: clean and rebuild",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                "--target",
+                "clean"
+            ],
+            "dependsOn": [
+                "CMake: configure",
+                "C++: build release"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "label": "C++: run trading bot",
+            "type": "shell",
+            "command": "${workspaceFolder}/build/Release/trading_bot.exe",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        }
+    ]
+}

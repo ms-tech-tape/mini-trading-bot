@@ -1,0 +1,6 @@
+D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\main.cpp;D:\C++\mini-trading-bot\cpp-hft-trading-bot\build\trading_bot.dir\Release\main.obj
+D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\market_data.cpp;D:\C++\mini-trading-bot\cpp-hft-trading-bot\build\trading_bot.dir\Release\market_data.obj
+D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\order_manager.cpp;D:\C++\mini-trading-bot\cpp-hft-trading-bot\build\trading_bot.dir\Release\order_manager.obj
+D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\execution_engine.cpp;D:\C++\mini-trading-bot\cpp-hft-trading-bot\build\trading_bot.dir\Release\execution_engine.obj
+D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\trading_strategy.cpp;D:\C++\mini-trading-bot\cpp-hft-trading-bot\build\trading_bot.dir\Release\trading_strategy.obj
+D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\risk_manager.cpp;D:\C++\mini-trading-bot\cpp-hft-trading-bot\build\trading_bot.dir\Release\risk_manager.obj

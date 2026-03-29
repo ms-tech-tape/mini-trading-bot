@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\C++\mini-trading-bot\cpp-hft-trading-bot\build\CMakeFiles\6c2244c36f4dbae159007b07373122f5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3194E50F-B171-373F-A3B7-18424B9F9625}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

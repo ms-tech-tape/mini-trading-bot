@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\market_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\order_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\execution_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\trading_strategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C++\mini-trading-bot\cpp-hft-trading-bot\src\risk_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\C++\mini-trading-bot\cpp-hft-trading-bot\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C6A2459D-CD02-3C21-A1E0-B9DEAB83F7EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
